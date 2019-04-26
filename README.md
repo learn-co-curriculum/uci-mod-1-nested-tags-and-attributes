@@ -1,22 +1,19 @@
 # Nested HTML Tags And Attributes
 
-## Problem Statement
+## Learning Goals
+
+- Assess HTML document structure
+- Identify HTML tag attributes
+
+## Introduction
 
 When you take a look at an entire HTML document, it's sometimes challenging to
 keep track of where tags begin and end. But understanding more about HTML tag
 nesting and attributes can help everything fall into place.
 
-## Objectives
+## Assess HTML Document Structure
 
-1. Assess HTML document structure
-2. Identify nested HTML tags
-3. Recognize HTML tag attributes and their purposes
-
-### Nested Tags
-
-Whenever we nest an HTML tag inside of another tag, we indent the inner tag so
-that the overall tag hierarchy is clear. Take a look at the following example of
-a well-structured HTML document.
+Take a look at the following example of a well-structured HTML document.
 
 ```html
 <!DOCTYPE html>
@@ -45,10 +42,13 @@ a well-structured HTML document.
 </html>
 ```
 
-Keeping your HTML well indented so that every tag and "level" of nesting is
-aligned will make your code easier to read and maintain.
+You can see hear that we nest HTML tags within other HTML tags to represent
+complex page structures. As we nest, we indent the inner tag so that the overall
+tag hierarchy remains clear. Keeping your HTML well indented so that every tag
+and "level" of nesting is aligned will make your code easier to read and
+maintain.
 
-### HTML Attributes
+## Identify HTML Tag Attributes
 
 An HTML attribute is extra information we can add to a tag to identify,
 classify, style or modify the default behavior of the element the tag contains.
@@ -87,6 +87,13 @@ won't be able to send more people to the Flatiron School website. Certain
 attributes go hand in hand with certain HTML tags, and as you learn the tags,
 you'll learn their attributes.
 
+## Conclusion
+
+We use nesting to keep the elements of our HTML document organized, and we use
+attributes to give our elements more power. With these strategies, we can
+construct a solid HTML structure that serves as a foundation for anything else
+we want to build.
+
 ## Resources
 
 * [Nested Tags](http://www.bu.edu/tech/services/cccs/websites/www/non-wordpress/start/html-introduction/syntax/nesting-tags/) More on Nested
@@ -94,10 +101,3 @@ you'll learn their attributes.
 * [Best Practices Web Design](http://www.iraqtimeline.com/maxdesign/basicdesign/principles/prinnest.html)
 * [HTML Attributes](https://www.w3schools.com/html/html_attributes.asp) More on
 * [Attributes](https://www.tutorialspoint.com/html/html_attributes.htm)
-
-## Conclusion
-
-We use nesting to keep the elements of our HTML document organized, and we use
-attributes to give our elements more power. With these strategies, we can
-construct a solid HTML structure that serves as a foundation for anything else
-we want to build.
